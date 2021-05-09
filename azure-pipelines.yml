@@ -7,7 +7,7 @@ trigger:
 - master
 
 jobs:
-- job: test-1
+- job: test_executer_1
   strategy:
     parallel: 4
   pool:
