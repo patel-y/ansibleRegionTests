@@ -16,7 +16,9 @@ jobs:
     inputs:
       targetType: 'inline'
       script: | 
+        echo "Region is :"
         echo $CYPRESS_region
+        echo "--------"
   - task: NodeTool@0
     inputs:
       versionSpec: '12.16.1'
