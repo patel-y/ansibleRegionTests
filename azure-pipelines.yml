@@ -12,6 +12,11 @@ jobs:
     vmImage: 'windows-latest'
 
   steps:
+  - task: Bash@3
+    inputs:
+      targetType: 'inline'
+      script: | 
+        echo $CYPRESS_region
   - task: NodeTool@0
     inputs:
       versionSpec: '12.16.1'
@@ -22,3 +27,4 @@ jobs:
 
   - script: |
       npm run test
+
