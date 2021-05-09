@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cypress-test
+data:
+  requestApiKey: erad
+  apiUrl: dad
+  apiHostUrl: adad
+  onboardingUrl: dadad   
+
