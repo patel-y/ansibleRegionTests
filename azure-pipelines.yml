@@ -8,8 +8,6 @@ trigger:
 
 jobs:
 - job: test_executer_1
-  strategy:
-    parallel: 4
   pool:
     vmImage: 'windows-latest'
 
