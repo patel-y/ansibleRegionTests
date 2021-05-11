@@ -4,7 +4,7 @@
   "description": "Microsoft Website Region Tests",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --spec 'cypress/integration/**.js' --headless"
+    "test": "npx /app/node_modules/cypress/bin/cypress run --spec 'cypress/integration/**.js' --headless"
   },
   "repository": {
     "type": "git",
